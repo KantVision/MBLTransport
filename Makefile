@@ -14,7 +14,7 @@ APP=quench
 
 # 4. Add any headers your program depends on here. The make program
 #    will auto-detect if these headers have changed and recompile your app.
-MYDIR=$(HOME)/itensor.utility/
+MYDIR=$https://github.com/chiamin/itensor.utility.git
 
 MYFLAGS=-I$(MYDIR) -fmax-errors=3 -Wno-unused-variable -Wno-unused-function -Wno-sign-compare
 
